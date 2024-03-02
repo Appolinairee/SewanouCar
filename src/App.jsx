@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Home from "./Pages/Home";
 import Footer from "./components/Footer/Footer";
 import Contacts from "./components/Contact/Contact";
+import Connexion from "./components/Connexion";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="*" element={<Home />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/connexion" element={<Connexion />} />
         </Routes>
 
         <Footer />
